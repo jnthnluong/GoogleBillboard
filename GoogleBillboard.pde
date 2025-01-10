@@ -6,7 +6,8 @@ public void setup()
     double temp = Double.parseDouble(e.substring(i, i+10));
 
     if (isPrime(temp)){
-      System.out.println(temp);
+      //System.out.println(temp);
+      System.out.println(e.substring(i, i+10));
       break;
     }
 
